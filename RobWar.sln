@@ -14,6 +14,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{00C18E
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ECDDD822-E7A2-4611-82B7-14CCA349F65B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobWar.Infra", "RobWar.Infra\RobWar.Infra.csproj", "{BBD4003D-6572-4710-939A-22CB59C34F0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobWar.Infra.Test", "RobWar.Infra.Test\RobWar.Infra.Test.csproj", "{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,8 +34,20 @@ Global
 		{15CDF1F7-863E-4245-9F46-B4F2D33B4DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15CDF1F7-863E-4245-9F46-B4F2D33B4DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15CDF1F7-863E-4245-9F46-B4F2D33B4DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD4003D-6572-4710-939A-22CB59C34F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD4003D-6572-4710-939A-22CB59C34F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD4003D-6572-4710-939A-22CB59C34F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD4003D-6572-4710-939A-22CB59C34F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15CDF1F7-863E-4245-9F46-B4F2D33B4DA1} = {ECDDD822-E7A2-4611-82B7-14CCA349F65B}
+		{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B} = {ECDDD822-E7A2-4611-82B7-14CCA349F65B}
 	EndGlobalSection
 EndGlobal
