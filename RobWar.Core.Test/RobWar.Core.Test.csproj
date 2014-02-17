@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Domain\Robot_LowerLeft_Test.cs" />
     <Compile Include="Domain\Robot_Coordinates_Test.cs" />
+    <Compile Include="Domain\Robot_Position_Test.cs" />
     <Compile Include="Domain\Robot_Rotation_Test.cs" />
     <Compile Include="Domain\Robot_UpperRight_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
