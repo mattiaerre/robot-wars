@@ -39,6 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\CoordinatesModel.cs" />
+    <Compile Include="Models\Instruction.cs" />
+    <Compile Include="Domain\IRobot.cs" />
+    <Compile Include="Domain\Robot.cs" />
+    <Compile Include="Models\Orientation.cs" />
+    <Compile Include="Models\PositionModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
