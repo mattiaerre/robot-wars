@@ -45,7 +45,9 @@
     <Compile Include="Domain\Robot.cs" />
     <Compile Include="Models\Orientation.cs" />
     <Compile Include="Models\PositionModel.cs" />
+    <Compile Include="Models\RobotInputModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\GlobalInputModel.cs" />
     <Compile Include="Services\IInputService.cs" />
     <Compile Include="Services\IRobotsService.cs" />
     <Compile Include="Services\RobotsService.cs" />

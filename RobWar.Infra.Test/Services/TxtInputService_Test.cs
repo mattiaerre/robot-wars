@@ -5,7 +5,7 @@ using RobWar.Infra.Services;
 namespace RobWar.Infra.Test.Services
 {
   [TestFixture]
-  public class InputService_Test
+  public class TxtInputService_Test
   {
     private IInputService _service;
 
