@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobWar.Infra", "RobWar.Infr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobWar.Infra.Test", "RobWar.Infra.Test\RobWar.Infra.Test.csproj", "{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobWar.App", "RobWar.App\RobWar.App.csproj", "{806946C1-5B66-4454-BED4-4F8FB0FDD94E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70934DC2-67D0-4BBD-BE32-FAEFF33CFA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806946C1-5B66-4454-BED4-4F8FB0FDD94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806946C1-5B66-4454-BED4-4F8FB0FDD94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806946C1-5B66-4454-BED4-4F8FB0FDD94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806946C1-5B66-4454-BED4-4F8FB0FDD94E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
