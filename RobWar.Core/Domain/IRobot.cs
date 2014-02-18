@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using RobWar.Core.Models;
+﻿using RobWar.Core.Models;
+using System.Collections.Generic;
 
 namespace RobWar.Core.Domain
 {

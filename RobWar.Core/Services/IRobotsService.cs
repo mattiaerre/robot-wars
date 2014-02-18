@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using RobWar.Core.Domain;
+﻿using RobWar.Core.Domain;
+using System.Collections.Generic;
 
 namespace RobWar.Core.Services
 {

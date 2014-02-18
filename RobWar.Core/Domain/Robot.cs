@@ -1,6 +1,6 @@
-﻿using System;
+﻿using RobWar.Core.Models;
+using System;
 using System.Collections.Generic;
-using RobWar.Core.Models;
 
 namespace RobWar.Core.Domain
 {
@@ -9,18 +9,15 @@ namespace RobWar.Core.Domain
     private readonly CoordinatesModel _lowerLeft = new CoordinatesModel { X = 0, Y = 0 };
     private readonly PositionModel _position;
     private readonly CoordinatesModel _upperRight;
-
     public Robot(PositionModel position, CoordinatesModel upperRight)
     {
       _position = position;
       _upperRight = upperRight;
     }
-
     public PositionModel GetPosition()
     {
       return _position;
     }
-
     public void Move(IEnumerable<Instruction> instructions)
     {
       foreach (var instruction in instructions)
@@ -31,7 +28,6 @@ namespace RobWar.Core.Domain
           UpdateCoordinates();
       }
     }
-
     private void UpdateCoordinates()
     {
       if (_position.Orientation == Orientation.N)
@@ -43,7 +39,6 @@ namespace RobWar.Core.Domain
       else if (_position.Orientation == Orientation.W)
         _position.Coordinates.X = Math.Max(_lowerLeft.X, _position.Coordinates.X - 1);
     }
-
     private void UpdateOrientation(Instruction instruction)
     {
       if (_position.Orientation == Orientation.N && instruction == Instruction.R)
